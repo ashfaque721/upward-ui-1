@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    font-size: 20px;
+}
+a{
+    display: block;
+    color: white;
+    background-color: blueviolet;
+    /*padding: 10px 20px;*/
+   /* height: 30px;
+    width: 70.225px;
+    font-weight: 10;*/
+}
+/*icon-style*/
+.fa-solid, .fas {
+    font-weight: 900;
+    font-size: 12px;
+}
+#mainNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.menuItems ul{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+ul.sub-menu{
+    position: relative;
+    top: 400px;
+    color: brown;
+}
